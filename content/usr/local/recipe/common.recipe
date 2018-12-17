@@ -1,0 +1,3 @@
+# apk recipe file
+# add one apk package per line, install this file with 'apk-add-recipe $filepath'
+# start comment lines with '#'

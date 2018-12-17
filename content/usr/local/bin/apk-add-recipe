@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# check file exists
+filename=$1
+if [ -z "$filename" ]; then
+    echo File $filename not found
+    exit 1
+fi
+
+# pass packages (one per line) to 'apk add' to install it
+cat $filename | drop-comments | xargs apk add

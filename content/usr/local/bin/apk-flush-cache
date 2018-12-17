@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# flush apk cache, save docker image space
+rm -rvf /var/cache/apk/*

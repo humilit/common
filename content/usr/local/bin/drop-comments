@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# filter lines starting with "#"
+awk -F: '/^[^#]/ { print $1 }'

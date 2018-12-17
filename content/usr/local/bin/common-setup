@@ -1,1 +1,7 @@
 #!/usr/bin/env sh
+
+# apk update
+
+# apk-add-recipe /usr/local/share/apk-recipe/common.apk.recipe
+
+# apk-flush-cache
