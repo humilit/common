@@ -2,6 +2,6 @@
 
 # apk update
 
-# apk-add-recipe /usr/local/share/apk-recipe/common.apk.recipe
+# apk-add-recipe /usr/local/recipe/common.recipe
 
 # apk-flush-cache
